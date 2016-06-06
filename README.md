@@ -1,16 +1,14 @@
-# Blank Angular2 project template
+# Angular 2 with Material Design Lite
 
-This repository holds basic project that can be used as a quick start template when learning and prototyping with Angular 2 and TypeScript. 
-
-_Inspired by [Angular 2 Quickstart](https://github.com/angular/quickstart) project and Angular [5 min quickstart](https://angular.io/docs/ts/latest/quickstart.html) article._
+This repository holds basic project that can be used as a quick start template when learning and prototyping with Angular 2, TypeScript and Material Design Lite.
 
 ## Prerequisites
 
-Node.js and npm are essential to Angular 2 development. 
+Node.js and npm are essential to Angular 2 development.
 
 <a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
 Get it now</a> if it's not already installed on your machine.
- 
+
 **Verify that you are running at least node `v5.x.x` and npm `3.x.x`**
 by running `node -v` and `npm -v` in a terminal/console window.
 Older versions produce errors.
@@ -19,8 +17,8 @@ Older versions produce errors.
 
 Clone this repo into new project folder (e.g., `ng2-app`).
 ```bash
-git clone https://github.com/DenisVuyka/ng2samples-blank ng2-app
-cd ng2-app
+git clone https://github.com/DenisVuyka/ng2samples-material ng2-material
+cd ng2-material
 ```
 
 Discard everything "git-like" by deleting the `.git` folder.
@@ -41,7 +39,7 @@ git commit -m "Initial commit"
 
 Create a *remote repository* for this project on the service of your choice.
 
-Grab its address (e.g. *`https://github.com/<my-org>/ng2-app.git`*) and push the *local repo* to the *remote*.
+Grab its address (e.g. *`https://github.com/<my-org>/ng2-material.git`*) and push the *local repo* to the *remote*.
 ```bash
 git remote add origin <repo-address>
 git push -u origin master
@@ -60,7 +58,7 @@ npm install
 npm start
 ```
 
-The `npm start` command first compiles the application, 
+The `npm start` command first compiles the application,
 then simultaneously re-compiles and runs the `wsrv` web server.
 Both the compiler and the server watch for file changes.
 
